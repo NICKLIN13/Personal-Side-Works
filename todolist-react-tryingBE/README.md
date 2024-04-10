@@ -1,6 +1,19 @@
 # To-do List built with React.JS (full-stack)
 A simple but powerful To-do list App which is handly and easy to use.
 
+## Technologies used
+Frontend:
+* React.JS framework
+* JavaScript / HTML / CSS
+* useState / useEffect
+* async / await
+
+Backend:
+* Express.JS framework
+* MongoDB
+* RESTful API
+* Routers
+
 ## Features
 * Allows users to edit topics and details after adding a todo.
 * Used line-through text decoration instead of a check box.
