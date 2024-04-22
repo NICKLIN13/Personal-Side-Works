@@ -21,8 +21,8 @@ Backend:
 
 ## Set up
 1. Clone this project.
-1. cd to the project directory and run `npm start`.
-2. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. cd to the project directory and run `npm start` to connect to frontend.
+3. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## Image of UI
 ![Getting Started](./IMAGE_To-do-list.png)
