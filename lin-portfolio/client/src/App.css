@@ -22,11 +22,32 @@
   justify-content: flex-start;
   font-size: calc(10px + 2vmin);
   color: white;
+  font-family: monospace;
 }
 
 .App-link {
   color: #61dafb;
 }
+
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.card{
+  width: 18rem;
+  margin: 0 10px;
+}
+
+.card-image{
+  width: 286px;
+  height: 256px;
+}
+
+
+
+
 
 @keyframes App-logo-spin {
   from {
