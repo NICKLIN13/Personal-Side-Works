@@ -1,7 +1,7 @@
 import React from 'react'
 import '../App.css';
 import Navbar from '../components/Navbar'
-import { Container, CardText } from 'react-bootstrap'
+import { Container, CardText, Button } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function ProjectPage() {
@@ -29,7 +29,7 @@ function ProjectPage() {
                   <li>Deployed to render.com and acheived CI</li>
                 </ul>
               </CardText>
-              <a href="https://lin-todolist.onrender.com" class="btn btn-primary" target="_blank">Go somewhere</a>
+              <Button className='custom-button' href="https://lin-todolist.onrender.com" class="btn btn-primary" target="_blank">Go somewhere</Button>
             </div>
           </div>
 
@@ -46,7 +46,7 @@ function ProjectPage() {
                   <li>Generated a touch keyboard</li>
                 </ul>
               </CardText>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <Button className='custom-button' href="#" class="btn btn-primary" target="_blank">Go somewhere</Button>
             </div>
           </div>
 
@@ -63,7 +63,7 @@ function ProjectPage() {
                   <li>Protected specific URLs with decorator</li>
                 </ul>
               </CardText>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <Button className='custom-button' href="#" class="btn btn-primary" target="_blank">Go somewhere</Button>
             </div>
           </div>
 

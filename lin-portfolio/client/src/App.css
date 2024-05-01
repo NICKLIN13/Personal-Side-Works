@@ -31,8 +31,10 @@
 
 
 .container {
+  position: relative;
   display: flex;
   justify-content: center;
+  height: 36rem;
 }
 
 .card{
@@ -45,6 +47,12 @@
   height: 256px;
 }
 
+.custom-button{
+  position: absolute;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+}
 
 
 
