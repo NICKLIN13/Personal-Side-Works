@@ -20,9 +20,9 @@ function App() {
           </div>
 
           <div className='col-md-7 d-flex flex-column justify-content-center' style={{marginLeft: '80px'}}>
-            <h5><b>Software developer & Master student at UIUC</b></h5>
+            <h5 className='text-start'><b>Software developer & Master student at UIUC</b></h5>
             <br/>
-            <p className='text-justify fs-6'>
+            <p className='text-start fs-6'>
               I am Yu-Ting Lin, as known as NICK. I have a strong foundation in algorithms and data structures, and I use modern web technologies such as React.js and Node.js to develop projects.
             </p>
           </div>
@@ -37,7 +37,7 @@ function App() {
             <br />
             <ul className='text-start fs-6'>
               <li>First Semester:
-                <span className="badge bg-secondary d-inline-block" style={{ marginLeft: '5px'}}>Databases System</span>
+                <span className="badge bg-secondary d-inline-block" style={{ marginLeft: '5px'}}>Database Systems</span>
                 <span className="badge bg-secondary d-inline-block" style={{ marginLeft: '5px'}}>Data Visualization</span>
                 <span className="badge bg-secondary d-inline-block" style={{ marginLeft: '5px'}}>Data Cleaning</span>
               </li>
@@ -45,28 +45,30 @@ function App() {
           </div>
         </Container>
 
-        <Container className="my-4 bg-dark text-white" style={{ width: '1000px', height: '400px'}}>
+        <Container className="my-4 bg-dark text-white" style={{ width: '1000px', height: '410px'}}>
           <div className='col-md-8 d-flex flex-column justify-content-center'>
             <h5><b>CS-Related Courses</b></h5>
             <h6 style={{ marginTop: '18px' }}>National Taiwan Normal University,</h6>
             <h6 >National Taipei University of Technology</h6>
             <h6>February 2023 - July 2023</h6>
-            <h5 style={{ marginTop: '10px' }}>
-              <span className="badge bg-secondary d-inline-block">Algorithm</span>
-              <span className="badge bg-secondary d-inline-block" style={{ marginLeft: '5px'}}>Data Structure</span>
-              <span className="badge bg-secondary d-inline-block" style={{ marginLeft: '5px'}}>Object-oriented Programming</span><br />
-              <span className="badge bg-secondary d-inline-block" style={{ marginLeft: '5px', marginTop: '3px'}}>Computer Organization</span>
-              <span className="badge bg-secondary d-inline-block" style={{ marginLeft: '5px'}}>Probability and Stastics</span>
-            </h5>
+            <ul className='text-start fs-6' style={{ marginTop: '30px' }}>
+              <li>Credit Courses:
+                <span className="badge bg-secondary d-inline-block" style={{ marginLeft: '5px'}}>Algorithm</span>
+                <span className="badge bg-secondary d-inline-block" style={{ marginLeft: '5px'}}>Data Structure</span>
+                <span className="badge bg-secondary d-inline-block" style={{ marginLeft: '5px'}}>Object-oriented Programming</span>
+                <span className="badge bg-secondary d-inline-block" style={{ marginLeft: '150px'}}>Computer Organization</span>
+                <span className="badge bg-secondary d-inline-block" style={{ marginLeft: '5px'}}>Probability and Stastics</span>
+              </li>
+            </ul>
             <ul className='text-start fs-6'>
-              <li style={{ marginTop: '18px' }}>Achieved the highest score in OOP class, securing 99%</li>
-              <li style={{ marginTop: '18px' }}>Overall GPA: 4.0/4.0</li>
+              <li>Achieved the highest score in OOP class, securing 99%</li>
+              <li style={{ marginTop: '10px' }}>Overall GPA: 4.0/4.0</li>
             </ul>
           </div>
         </Container>
 
 
-        <Container className="my-4 bg-dark text-white" style={{ width: '1000px', height: '470px'}}>
+        <Container className="my-4 bg-dark text-white" style={{ width: '1000px', height: '440px'}}>
           <div className='col-md-10 d-flex flex-column justify-content-center'>
             <h5><b>Bachelor of Engineering <br />in Architecture and Mechatronics</b></h5>
             <h6 style={{ marginTop: '18px' }}>Oita University</h6>
@@ -75,8 +77,8 @@ function App() {
             <br />
             <ul className='text-start fs-6'>
               <li>Analyzed the approaches to regional disaster prevention in the symposium</li>
-              <li style={{ marginTop: '18px' }}>Utilized LEGO® Blocks to do programming learning and disaster education </li>
-              <li style={{ marginTop: '18px' }}>Held a disaster reduction and preparedness workshop / camp</li>
+              <li style={{ marginTop: '10px' }}>Utilized LEGO® Blocks to do programming learning and disaster education </li>
+              <li style={{ marginTop: '10px' }}>Held a disaster reduction and preparedness workshop / camp</li>
             </ul>
           </div>
         </Container>
