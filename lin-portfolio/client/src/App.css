@@ -54,6 +54,10 @@
   transform: translateX(-50%);
 }
 
+.rounded-circle-small {
+  width: 230px;
+  height: 230px;
+}
 
 
 

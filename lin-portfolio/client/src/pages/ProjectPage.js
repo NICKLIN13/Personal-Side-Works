@@ -1,7 +1,7 @@
 import React from 'react'
 import '../App.css';
 import Navbar from '../components/Navbar'
-import { Container, CardText, Button } from 'react-bootstrap'
+import { CardText, Button } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function ProjectPage() {
@@ -9,7 +9,7 @@ function ProjectPage() {
     <div className='App'>
       <Navbar />
 
-      <h1>My Projects <span class="badge bg-secondary">New</span> </h1>
+      <h1 style={{ marginTop: '10px' }}>My Projects <span class="badge bg-secondary">New</span> </h1>
 
       <header className='App-header'>
 
@@ -24,7 +24,7 @@ function ProjectPage() {
               <h4>Todo List</h4>
               <CardText>
                 <ul className="fs-6 text-start">
-                  <li>Utilized React.js & Express.js to done the full stack work</li>
+                  <li>Utilized React.js & Express.js to do the full stack work</li>
                   <li>Integrated MongoDB as a back-end database with RESTful Api</li>
                   <li>Deployed to render.com and acheived CI</li>
                 </ul>
