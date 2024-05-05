@@ -59,6 +59,10 @@
   height: 230px;
 }
 
+.disclaimer {
+  font-family: courier;
+}
+
 
 
 @keyframes App-logo-spin {

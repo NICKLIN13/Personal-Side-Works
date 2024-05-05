@@ -1,6 +1,7 @@
 import React from 'react'
 import '../App.css';
 import Navbar from '../components/Navbar'
+import Footer from '../components/Footer';
 import { CardText, Button } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -81,7 +82,7 @@ function ProjectPage() {
                   <li>Protected specific URLs with decorator</li>
                 </ul>
               </CardText>
-              <Button className='custom-button' href="#" class="btn btn-primary" target="_blank">GitHub</Button>
+              <Button className='custom-button' href="https://github.com/NICKLIN13/Personal-Side-Works/tree/main/python-flask-google-login" class="btn btn-primary" target="_blank">GitHub</Button>
             </div>
           </div>
 
@@ -89,6 +90,7 @@ function ProjectPage() {
         </div>
 
       </header>
+      <Footer />
     </div>
   )
 }

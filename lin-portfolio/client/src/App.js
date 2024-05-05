@@ -1,7 +1,8 @@
 import './App.css';
-import Navbar from "./components/Navbar"
+import Navbar from "./components/Navbar";
+import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container, Button } from 'react-bootstrap'
+import { Container, Button } from 'react-bootstrap';
 
 function App() {
   return (
@@ -32,7 +33,7 @@ function App() {
         <Container className="my-4 bg-dark text-white" style={{ width: '1000px', height: '350px'}}>
           <div className='col-md-8 d-flex flex-column justify-content-center'>
             <h5><b>Master of Computer Science</b></h5>
-            <h6 style={{ marginTop: '18px' }}>University of Illinois Urbana-Champaign</h6>
+            <h6 style={{ marginTop: '18px' }}><b>University of Illinois Urbana-Champaign</b></h6>
             <h6>May 2024 - Expected September 2025</h6>
             <br />
             <ul className='text-start fs-6'>
@@ -48,8 +49,8 @@ function App() {
         <Container className="my-4 bg-dark text-white" style={{ width: '1000px', height: '410px'}}>
           <div className='col-md-8 d-flex flex-column justify-content-center'>
             <h5><b>CS-Related Courses</b></h5>
-            <h6 style={{ marginTop: '18px' }}>National Taiwan Normal University,</h6>
-            <h6 >National Taipei University of Technology</h6>
+            <h6 style={{ marginTop: '18px' }}><b>National Taiwan Normal University,</b></h6>
+            <h6><b>National Taipei University of Technology</b></h6>
             <h6>February 2023 - July 2023</h6>
             <ul className='text-start fs-6' style={{ marginTop: '30px' }}>
               <li>Credit Courses:
@@ -71,7 +72,7 @@ function App() {
         <Container className="my-4 bg-dark text-white" style={{ width: '1000px', height: '440px'}}>
           <div className='col-md-10 d-flex flex-column justify-content-center'>
             <h5><b>Bachelor of Engineering <br />in Architecture and Mechatronics</b></h5>
-            <h6 style={{ marginTop: '18px' }}>Oita University</h6>
+            <h6 style={{ marginTop: '18px' }}><b>Oita University</b></h6>
             <h6>April 2016 - March 2020</h6>
             <h6 style={{ marginTop: '15px' }}><b>Completed JABEE accredited engineering program with dual 3.5-year Scholarships</b></h6>
             <br />
@@ -84,6 +85,7 @@ function App() {
         </Container>
 
       </header>
+      <Footer />
     </div>
   );
 }
